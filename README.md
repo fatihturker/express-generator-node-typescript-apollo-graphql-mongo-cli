@@ -4,9 +4,20 @@
 This CLI helps to create new project for Node with Typescript, Apollo GraphQL Server and MongoDB with Mongoose
 from a boilerplate.
 
+### Install Package
+```sh
+npm install -g express-generator-node-typescript-apollo-graphql-mongo-cli
+```
+
+### Package Usage
+```sh
+express-generator-ntagm --name="PROJECT_NAME"
+```
+
 ### Tech
 * [Node.js]
 * [Typescript]
+
 
 ### Plugins
 
@@ -21,7 +32,8 @@ from a boilerplate.
 | [shx] | to wrap around ShellJS Unix commands |
 | [ts-node] | to execute TypeScript and REPL for node.js, with source map support |
 
-### Installation
+
+### Installation (for DEV)
 **express-generator-ntagm** requires [Node.js] v10+ to run.
 
 Install the dependencies and devDependencies and start the application.
@@ -40,8 +52,9 @@ $ npm install -g .
 
 And global usage:
 ```sh
-$ express-generator-ntagm --name="PROJECT NAME"
+$ express-generator-ntagm --name="PROJECT_NAME"
 ```
+
 
 # Boilerplate Features
 
@@ -53,6 +66,7 @@ $ express-generator-ntagm --name="PROJECT NAME"
 * MongoDB Connection, Repository Layer implementations
 * CRUD operations for Multiple Entities with implementations 
 
+
 ### Boilerplate Tech
 
 * [Node.js]
@@ -60,7 +74,8 @@ $ express-generator-ntagm --name="PROJECT NAME"
 * [GraphQL Apollo Server]
 * MongoDB with [Mongoose]
 
-### Installation
+
+### Boilerplate Installation
 Install the dependencies and devDependencies.
 
 ```sh
@@ -78,6 +93,7 @@ Start the server
 ```sh
 $ npm start
 ```
+
 
 # License
 ----
