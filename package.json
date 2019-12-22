@@ -1,7 +1,7 @@
 {
   "name": "express-generator-node-typescript-apollo-graphql-mongo-cli",
   "description": "Express Generator CLI for Node with Typescript, Apollo GraphQL Server and MongoDB",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "preferGlobal": true,
   "scripts": {
@@ -11,6 +11,12 @@
   "bin": {
     "express-generator-ntagm": "./dist/index.js"
   },
+  "keywords": [
+    "Express generator", "apollo server", 
+    "graphql", "node", "nodejs", "typescript", 
+    "mongo", "mongodb", "mongoose"
+  ],
+  "git repository": "https://github.com/fatihturker/express-generator-node-typescript-apollo-graphql-mongo-cli",
   "author": "Fatih Turker",
   "license": "MIT",
   "devDependencies": {
