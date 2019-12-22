@@ -95,7 +95,8 @@ $ npm start
 ```
 
 # Sponsors
-No sponsors yet! Will you be the first?
+No sponsors yet! **Will you be the first?**
+
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/RwIpTEd)
 
 # License
