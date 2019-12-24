@@ -22,6 +22,9 @@ and run the generator command with specifying the project name.
 $ express-generator-ntagm --name="PROJECT_NAME"
 ```
 
+For more information you can check this article:
+https://www.linkedin.com/pulse/create-graphql-api-2-minutes-using-node-typescript-apollo-t%C3%BCrker/
+
 ## `Documentation for the Boilerplate`
 When you generate the project, you will have;
 
