@@ -1,23 +1,82 @@
+![BTC](https://img.shields.io/badge/Donate-BTC%20Address%3A%203B2R9u6dpJyWB4U6iDWC14y9yejnF5hsSN-red?logo=bitcoin)
+[![Buy me a coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-orange?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/RwIpTEd) 
+[![Ko-fi](https://img.shields.io/badge/Donate-Ko--fi-blue?logo=ko-fi)](https://ko-fi.com/fatihturker)
 
-# Express Generator CLI for Node with Typescript, Apollo GraphQL Server and MongoDB with Mongoose
+# `Express Generator CLI for Node with Typescript, Apollo GraphQL Server and MongoDB with Mongoose`
 
-This CLI helps to create new project for Node with Typescript, Apollo GraphQL Server and MongoDB with Mongoose
-from a boilerplate.
+This CLI helps to create new implemented API demo for Node with Typescript, Apollo GraphQL Server and MongoDB with Mongoose from a boilerplate.
 
-### Install Package
+## `About the NPM Package`
+### Package Installation
 ```sh
 npm install -g express-generator-node-typescript-apollo-graphql-mongo-cli
 ```
 
 ### Package Usage
+Go to the directory on terminal where you want to generate the project.
 ```sh
-express-generator-ntagm --name="PROJECT_NAME"
+$ cd PATH
+```
+and run the generator command with specifying the project name.
+```sh
+$ express-generator-ntagm --name="PROJECT_NAME"
 ```
 
-### Tech
+## `Documentation for the Boilerplate`
+When you generate the project, you will have;
+
+### Tech Stack
+
 * [Node.js]
 * [Typescript]
+* [GraphQL Apollo Server]
+* MongoDB with [Mongoose]
 
+### Features
+
+* Multiple GraphQL Queries with implementations in Typescript
+* Multiple GraphQL Mutations with implementations in Typescript
+* Multiple GraphQL Schemas with implementations in Typescript
+* Multiple Controllers with implementations in Typescript
+* Multiple Mongoose Models with implementations in Typescript
+* MongoDB Connection, Repository Layer implementations in Typescript
+* CRUD operations for Multiple Entities with implementations in Typescript
+
+### Architecture
+This boilerplate has common graphql api design architecture. 
+**Layers:**
+* ***Controllers*** holds implementation for the business logic, like retrieving data from repositories, 
+returning those data to queries and mutations, saving data etc.
+* ***Database*** holds MongoDB connection provider
+* ***Models*** holds document interfaces, schema definitions and models for MongoDB & Mongoose
+* ***Mutations*** holds basic mutation implementation; create, update, delete
+* ***Queries*** holds basic query implementation; retrieve
+* ***Resolvers*** holds resolver definitions for Apollo Server
+* ***Schemas*** holds schema definitions for Apollo Server
+
+### Installation
+Install the dependencies and devDependencies:
+
+```sh
+$ cd <Project Name>
+$ npm install
+```
+
+Set environment parameters on **.env**:
+```sh
+PORT="{{PORT NUMBER WHERE THE APP WILL WORK}}"
+MONGO_DB_PATH="{{MONGODB CONNECTION URL STRING}}"
+```
+
+And that's all, start the server
+```sh
+$ npm start
+```
+
+## `Documentation for the Generator Project`
+### Tech Stack
+* [Node.js]
+* [Typescript]
 
 ### Plugins
 
@@ -33,7 +92,7 @@ express-generator-ntagm --name="PROJECT_NAME"
 | [ts-node] | to execute TypeScript and REPL for node.js, with source map support |
 
 
-### Installation (for DEV)
+### Installation
 **express-generator-ntagm** requires [Node.js] v10+ to run.
 
 Install the dependencies and devDependencies and start the application.
@@ -55,49 +114,13 @@ And global usage:
 $ express-generator-ntagm --name="PROJECT_NAME"
 ```
 
-
-# Boilerplate Features
-
-* Multiple GraphQL Queries with implementations
-* Multiple GraphQL Mutations with implementations
-* Multiple GraphQL Schemas with implementations
-* Multiple Controllers with implementations
-* Multiple Mongoose Models with implementations
-* MongoDB Connection, Repository Layer implementations
-* CRUD operations for Multiple Entities with implementations 
-
-
-### Boilerplate Tech
-
-* [Node.js]
-* [Typescript]
-* [GraphQL Apollo Server]
-* MongoDB with [Mongoose]
-
-
-### Boilerplate Installation
-Install the dependencies and devDependencies.
-
-```sh
-$ cd <Project Name>
-$ npm install
-```
-
-Set environment parameters on **.env**
-```sh
-PORT="{{PORT NUMBER WHERE THE APP WILL WORK}}"
-MONGO_DB_PATH="{{MONGODB CONNECTION URL STRING}}"
-```
-
-Start the server
-```sh
-$ npm start
-```
-
-# Sponsors
+# `Authors`
+ * **Fatih Türker**
+# `Sponsors`
 No sponsors yet! **Will you be the first?**
 
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/RwIpTEd)
+# `Contributors`
+No contributers yet! **Will you be the first?**
 
 # License
 ----
