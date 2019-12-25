@@ -1,7 +1,7 @@
 {
   "name": "express-generator-node-typescript-apollo-graphql-mongo-cli",
   "description": "Express Generator CLI for Node with Typescript, Apollo GraphQL Server and MongoDB",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "preferGlobal": true,
   "scripts": {

@@ -1,4 +1,5 @@
-![BTC](https://img.shields.io/badge/Donate-BTC%20Address%3A%203B2R9u6dpJyWB4U6iDWC14y9yejnF5hsSN-red?logo=bitcoin)
+![BTC](https://img.shields.io/badge/Donate-BTC-red?logo=bitcoin)
+**`3B2R9u6dpJyWB4U6iDWC14y9yejnF5hsSN`**
 [![Buy me a coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-orange?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/RwIpTEd) 
 [![Ko-fi](https://img.shields.io/badge/Donate-Ko--fi-blue?logo=ko-fi)](https://ko-fi.com/fatihturker)
 
